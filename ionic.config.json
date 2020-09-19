@@ -1,0 +1,7 @@
+{
+  "name": "app-study-mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
