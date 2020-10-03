@@ -1,27 +1,65 @@
-#container {
+ion-content {
+  --ion-background-color: lightgray;
+}
+.study {
+  height: 50%;
+  background-color: #00bfff;
+  border: 0;
+}
+h1 {
+  color: #ffffff;
   text-align: center;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
 
   margin: 0;
 }
 
-#container a {
-  text-decoration: none;
+h3 {
+  color: #ffffff;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  /* or 133% */
+
+  text-align: center;
+}
+
+.welcome {
+  // color: #6a6180;
+  font-family: Poppins;
+  height: 50%;
+}
+
+.welcome p {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.buttons {
+  margin: 50px;
+}
+
+#estudar {
+  --background: #00bfff;
+  color: #ffffff;
+
+  margin-right: 10px;
+
+  height: 120px;
+  width: 120px;
+}
+
+#daraula {
+  --background: #7cfc00;
+  color: #ffffff;
+
+  height: 120px;
+  width: 120px;
 }
